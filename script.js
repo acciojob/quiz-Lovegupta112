@@ -103,7 +103,7 @@ let correctAns=0;
   let options=document.getElementsByClassName('options')[0];
    options.innerHTML="";
     let question=document.getElementById('question');
-    question.innerText=`You answered ${correctAns}/4 questions correctly`;
+    question.innerText=`\n You answered ${correctAns}/4 questions correctly\n `;
 
 submit.innerText="Reload";
 submit.removeEventListener('click',submitted);
